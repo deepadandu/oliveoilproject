@@ -1,0 +1,207 @@
+body{
+	margin: 0;
+    font-family: "museo_sans_300";
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    overflow-x: hidden;
+}
+/*section1*/
+.content-banner{
+  margin-top : 6rem;
+  color: #ffffff;
+  background-image: url("../images/story.jpg");
+  min-height: 90%;
+  height: 60%;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 6rem;
+}
+.content-banner:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(57,49,49,0.7);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.content-banner .first-title{
+ text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+  margin: 0rem 0rem 1.6rem;
+  padding-top : 0.4rem;
+
+}
+.content-banner .banner-desc{
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  margin-top: 0;
+}
+ .first-title {
+ 	padding-bottom : 0.5rem;
+	
+} 
+/*section2*/
+.row{
+  
+  height: 100%;
+  font-family: 'verdana';
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.meeting{
+  margin-bottom: 6%;
+  margin-top: 10%;
+  font-family: "verdana";
+ 
+  /*margin-left: 10%;*/
+}
+
+.text h1{
+  text-align: left;
+  padding-bottom: 10px;
+  color: black;
+  padding-top: 40px;
+  padding-left: 80px;
+  font-size: 1rem;
+}
+.text h1::after{
+  content: '';
+  background: #657008;
+  display: block;
+  height: 3px;
+  width: 200px;
+  margin: 20px 20px 20px 1px;
+}
+
+.text p{
+	width: 145%;
+	font-family: "museo_sans_300";
+
+	letter-spacing: 0.4px;
+	color: #212529;
+	font-size: 18px;
+  padding-left: 80px;
+
+}
+/*section3*/
+.section {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  
+}
+
+img {
+  display: block;
+}
+
+
+#featureRight {
+	background-color: #657008;
+	width: 100%;
+	height: 100%
+	margin: 0 auto;
+	/*border:solid thick #d21c60;*/
+	box-shadow:2px 2px 2px #999999;
+  overflow:hidden;
+  padding-left: 4rem;
+}
+
+#featureRight img{
+	padding-top: 4rem;
+	padding-bottom: 5rem;
+	width: 70%;
+	height: 10%;
+  float:right;
+  
+}
+
+#featureRight p { 
+	padding-top: 4rem;
+	color: white;
+	font-size: 2rem;
+	width:20%;
+  text-align:left;
+  float:left;
+  padding:0 1em;
+}
+/*section4*/
+.row h1{
+	padding-top: 3rem;
+	font-size :1.2rem;
+}
+.row h1::after{
+  content: '';
+  background: #657008;
+  display: block;
+  height: 3px;
+  width: 100px;
+  margin: 10px 10px 10px 1px;
+}
+.row h3{
+ 
+	
+	font-size :1rem;
+}
+.row p{
+	display: block;
+	font-family: "veradana";
+	font-size: 0.8rem;
+}
+.row img{
+	
+	width: 100%;
+	height: auto;
+}
+
+/*section5*/
+.container1{
+	padding-top: 1rem;
+	padding-left: 5rem;
+	width: 95%
+}
+.roww h3{
+    font-size :1rem;
+}
+.roww p{
+	
+	display: block;
+	font-family: "veradana";
+	font-size: 0.8rem;
+}
+.roww img{
+	
+	width: 95%;
+	height: auto;
+}
+/*section6*/
+.box{
+	padding-top: 1rem;
+	padding-left: 4rem;
+	width: 95%
+}
+.row5 h3{
+	font-size: 0.9rem;
+}
+.row5 p{
+	font-family:"museo_sans_300"; 
+	font-size: 0.9rem;
+}
+

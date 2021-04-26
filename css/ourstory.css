@@ -1,0 +1,334 @@
+
+body{
+	font-family: "veradana";
+	margin :0;
+	padding:0;
+	overflow-x: hidden;
+}
+
+.content-banner{
+	margin-top : 6rem;
+  color: #ffffff;
+  background-image: url("../images/story.jpg");
+  min-height: 90%;
+  height: 60%;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 6rem;
+}
+.content-banner:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(57,49,49,0.7);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.content-banner .first-title{
+ text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+  margin: 0rem 0rem 1.6rem;
+  padding-top : 0.4rem;
+
+}
+.content-banner .banner-desc{
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: 0;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
+  margin-top: 0;
+}
+ .first-title p{
+	text-align: center;
+} 
+/*section2*/
+.row{
+  
+  height: 100%;
+  font-family: 'verdana';
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.meeting{
+  margin-bottom: 6%;
+  margin-top: 10%;
+  font-family: "verdana";
+ 
+  /*margin-left: 10%;*/
+}
+
+.text h1{
+  text-align: left;
+  padding-bottom: 10px;
+  color: black;
+  padding-top: 40px;
+  padding-left: 80px;
+  font-size: 1rem;
+}
+.text h1::after{
+  content: '';
+  background: green;
+  display: block;
+  height: 3px;
+  width: 200px;
+  margin: 20px 20px 20px 1px;
+}
+
+.text p{
+	width: 145%;
+	font-family: "museo_sans_300";
+	line-height: 1.2;
+	
+	color: #212529;
+	font-size: 0.8rem;
+  padding-left: 80px;
+
+}
+
+/*section3*/
+.section {
+ /* -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
+  margin: 0;
+  padding:0;
+}
+
+img {
+  display: block;
+}
+
+#featureRight {
+	background-color: #657008;
+	width: auto;
+	height: 100%
+	margin:0 auto;
+	/*border:solid thick #d21c60;*/
+	box-shadow:2px 2px 2px #999999;
+  overflow:hidden;
+  padding-left:4rem;
+}
+
+#featureRight img{
+	padding-top: 4rem;
+	width: 60%;
+	height: 20%;
+  float:right;
+  
+}
+
+#featureRight p { 
+	color: white;
+	font-size: 1.3rem;
+	width:20%;
+  text-align:left;
+  float:left;
+  padding:0 1em;
+}
+
+/*section4*/
+
+.row h1{
+	padding-top: 3rem;
+	font-size :1.2rem;
+}
+.row h1::after{
+  content: '';
+  background: #657008;
+  display: block;
+  height: 3px;
+  width: 100px;
+  margin: 10px 10px 10px 1px;
+}
+.row h3{
+ 
+	
+	font-size :1rem;
+}
+.row p{
+	display: block;
+	font-family: "veradana";
+	font-size: 0.8rem;
+}
+.row img{
+	
+	width: 100%;
+	height: auto;
+}
+/*section5*/
+
+.secondary h3{
+	padding-left :4rem;
+	padding-top: 3rem;
+	font-size :1.2rem;
+}
+	/*padding-top: 0;
+	padding-bottom: 1rem;
+
+	padding-left: 4rem;
+	font-size :1.2rem;*/
+
+.secondary p{
+	padding-left: 4rem;
+	display: block;
+	font-family: "veradana";
+	font-size: 0.8rem;
+	/*padding-left: 4rem;
+	display: block;
+	font-family: "veradana";
+	font-size: 0.8rem;*/
+}
+
+.secondary img{
+    padding-left: 4rem;
+	width: 95%;
+	height: auto;
+	
+}
+/*section6*/
+.inner{
+	padding-left: 4rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+}
+.third h3{
+	font-family: "veradana";
+	font-size: 1rem;
+}
+.third p{
+	display: block;
+	font-family: "veradana";
+	font-size: 0.8rem;
+}
+.third img{
+
+	width: 95%;
+	height: auto;
+}
+/*section7*/
+.outer{
+	padding-left: 4rem;
+	padding-top: 1rem;
+	padding-bottom: 0;
+
+}
+.fourth h3{
+	font-family: "veradana";
+	font-size: 0.8rem;
+}
+.fourth p{
+	display: block;
+	width :90%;
+	font-family: "veradana";
+	font-size: 0.8rem;
+}
+.fourth img{
+	padding-left: 0.2rem;
+	width: 95%;
+	height: auto;
+}
+
+/*section8*/
+
+/* .vcenter {
+ 	padding-top: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+        max-width: 39%;
+        
+      }
+     
+     .big-box h3{
+     	
+     }
+
+      .big-box {
+        height: 8em;
+        width:40%;
+        
+      }
+      .small-box  p{
+      	width: 40%;
+      	float: right;
+        height: 2em;
+        padding-left: 2rem;
+        
+      }*/
+      .row9{
+   padding-top: 1rem; 
+   padding-bottom: 0;  	
+   padding-left: 4rem;
+  width: 80%
+  height: 100%;
+  display: flex;
+  
+  
+}
+.row9 h6{
+	font-family: "Raleway" bold;
+	font-size: 0.9rem;
+}
+.row9 p{
+	width: 100%;
+	font-family:"museo_sans_300";
+	font-size: 0.8rem;
+}
+.meeting{
+
+  margin-bottom: 6%;
+ width: 100%;
+ margin-top: 7%;
+ 
+}
+.line{
+	padding-top: 2rem;
+	height:400px;
+	border-left: 1px solid #e3e3e3;
+	font-family: "veradana";
+	font-size: 0.8rem;
+  
+}
+.sec2-heading{
+	padding-top: 1rem;
+    font-family: "veradana";
+  
+ 
+  margin-right: 40px;
+}
+.img-wrap{
+  width:100%;
+}
+.img-wrap img{
+  width:80%;
+  padding: 10px;
+  height: 70%;
+  margin-top: 9%;
+  margin-bottom: 12%;
+  margin-left: 9%;
+}
+.sec2-heading h6{
+  padding-left: 2.5rem;
+  padding-top: 30px;
+  font-size: 0.8rem;
+}
+.dark-color{
+
+  color:#657008;
+  font-family: 'veradana';
+  width:60%;
+  font-size: 23px;
+  
+}
+
