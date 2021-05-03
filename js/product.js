@@ -1,24 +1,18 @@
-$(document).ready(function() {
-      $("#myCarousel").on("slide.bs.carousel", function(e) {
-              var $e = $(e.relatedTarget);
-              var idx = $e.index();
-              var itemsPerSlide = 4;
-              var totalItems = $(".carousel-item").length;
-          
-              if (idx >= totalItems - (itemsPerSlide - 1)) {
-                        var it = itemsPerSlide - (totalItems - idx);
-                        for (var i = 0; i < it; i++) {
-                                    // append slides to end
-                                    if (e.direction == "left") {
-                                                  $(".carousel-item")
-                                                              .eq(i)
-                                                              .appendTo(".carousel-inner");
-                                    } else {
-                                                  $(".carousel-item")
-                                                              .eq(0)
-                                                              .appendTo($(this).find(".carousel-inner"));
-                                    }
-                        }
-              }
+    $(document).ready(function() {
+      var owl = $("#owl-demo");
+      owl.owlCarousel({
+      autoPlay: 1500,
+      items : 4, //10 items above 1000px browser width
+      itemsDesktop : [1000,4], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0;
+      itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
+      pagination:false
       });
-        "<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>""                            
+      $(".next").click(function(){
+          owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+          owl.trigger('owl.prev');
+      })
+    });

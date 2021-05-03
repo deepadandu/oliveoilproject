@@ -1,0 +1,386 @@
+body{
+	font-family: "veradana";
+	margin : 0;
+	padding:0;
+	overflow-x: hidden;
+}
+
+
+.content-banner{
+  color: #ffffff;
+  background-image: url("../images/chefs.jpg");
+  min-height: 200px;
+  height: 40%;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 3rem;
+}
+.content-banner:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94,87,80,0.41);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.content-banner .first-title {
+  font-family: "Raleway" bold;
+  font-size: 3rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+  margin: 30px 0px 12px;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+/*section2*/
+.row{
+  margin-left: 6rem;
+  height: 100%;
+  font-family: 'verdana';
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.meeting{
+  margin-bottom: 6%;
+  margin-top: 10%;
+  font-family: "verdana";
+ 
+  /*margin-left: 10%;*/
+}
+
+.text h1{
+font-family: "museo_sans_300" bold;
+  text-align: left;
+  padding-bottom: 10px;
+  color: black;
+  padding-top: 40px;
+  padding-left: 3rem;
+  font-size: 3rem;
+}
+
+
+.text p{
+	padding-top: 0.6rem;
+	width: 145%;
+	font-family: "museo_sans_300";
+	line-height: 1.2;
+	color: blue;
+	font-size: 1.6rem;
+    padding-left: 4rem;
+
+}
+/*section3*/
+.section {
+ /* -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
+  margin:0;
+  padding-left:6rem;
+}
+
+
+
+
+#featureRight img{
+	padding-left: 4rem;
+	padding-top: 2rem;
+	width: 60%;
+	height: 20%;
+	
+    }
+
+.para p { 
+	font-family:"museo_sans_300";
+	margin-left: 2.5rem;
+	color: black;
+	font-size: 2rem;
+	width:80%;
+  padding-top: 0.7rem;
+  padding:0 1em;
+}
+/*section4*/
+.section4 {
+ /* -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
+  margin:0;
+  padding-left:6rem;
+}
+.image img{
+	padding-left: 4rem;
+	padding-top: 2rem;
+	width: 40%;
+	height: 20%;
+	
+    }
+.image p{
+	font-family:"museo_sans_300";
+	margin-left: 2.5rem;
+	color: black;
+	font-size: 2rem;
+	width:70%;
+    margin-top: 1rem;
+  padding:0 1em;
+}
+
+.heading h1{
+	font-family:"poppins";
+	font-weight: bold;
+	margin-left: 8rem;
+	color: black bold;
+	font-size: 2.5rem;
+	width:70%;
+    margin-top: 2rem;
+  padding:0 1em;
+}
+.heading p{
+ font-family:"museo_sans_300";
+
+	margin-left: 8rem;
+	color: black;
+	font-size: 2rem;
+	width:70%;
+    margin-top: 2rem;
+  padding:0 1em;
+}
+.heading ul li{
+ font-family:"veradana";
+ font-weight: bold;
+	margin-left: 8rem;
+	color: black ;
+	line-height: 2px;
+	font-size: 1.9rem;
+	width:70%;
+  padding:0.3rem;
+  margin-top: 2rem;
+  }
+.heading2 h1{
+	font-family:"poppins";
+	font-weight: bold;
+	margin-left: 8rem;
+	color: black bold;
+	font-size: 2.5rem;
+	width:70%;
+    margin-top: 2rem;
+  padding:0 1em;
+}
+.heading2 p{
+ font-family:"museo_sans_300";
+
+	margin-left: 8rem;
+	color: black;
+	font-size: 2rem;
+	width:70%;
+    margin-top: 2rem;
+  padding:0 1em;
+}
+.heading2 ul li{
+ font-family:"veradana";
+ font-weight: bold;
+	margin-left: 8rem;
+	color: black ;
+	line-height: 0.6px;
+	font-size: 1.9rem;
+	width:70%;
+  padding: 0.3rem;
+    margin-top: 2rem;
+  }
+  .heading3 h1{
+	font-family:"poppins";
+	font-weight: bold;
+	margin-left: 8rem;
+	color: black bold;
+	font-size: 2.5rem;
+	width:70%;
+    margin-top: 2rem;
+  padding:0 1em;
+}
+.heading3 p{
+ font-family:"museo_sans_300";
+
+	margin-left: 8rem;
+	color: black;
+	font-size: 2rem;
+	width:70%;
+    margin-top: 2rem;
+  padding:0 1em;
+}
+.heading3 ul li{
+ font-family:"veradana";
+ font-weight: bold;
+	margin-left: 8rem;
+	color: black ;
+	line-height: 0.6px;
+	font-size: 1.9rem;
+	width:70%;
+  padding: 0.3rem;
+    margin-top: 2rem;
+  }
+  .heading4 h1{
+	font-family:"poppins";
+	font-weight: bold;
+	margin-left: 8rem;
+	color: black bold;
+	font-size: 2.5rem;
+	width:70%;
+    margin-top: 2rem;
+  padding:0 1em;
+}
+.heading4 p{
+ font-family:"museo_sans_300";
+
+	margin-left: 8rem;
+	color: black;
+	font-size: 2rem;
+	width:70%;
+    margin-top: 2rem;
+  padding:0 1em;
+}
+.heading4 ul li{
+ font-family:"veradana";
+ font-weight: bold;
+	margin-left: 8rem;
+	color: black ;
+	line-height: 0.6px;
+	font-size: 1.9rem;
+	width:70%;
+  padding: 0.3rem;
+    margin-top: 2rem;
+  }
+  .last-section p{
+  	padding-top: 2rem;
+  	font-family:"museo_sans_300";
+  	font-size:1rem;
+  	margin-left: 13rem;
+  	padding-right:10rem;
+  	color: #657008;  
+  }
+  .last-section p:hover{
+  	text-decoration: underline;
+  }
+  .lastone p{
+    
+    font-family:"museo_sans_300";
+    font-size:1rem;
+    margin-left: 13rem;
+  
+    color: #657008;  
+  }
+  .lastone p:hover{
+  	text-decoration: underline;
+  }
+/*section10*/
+.section-6 .containerarrary{
+  background-image: url('../images/land.jpg');
+  background-size: cover;
+  height: 40rem;
+
+}
+.section-6 .heading-1{
+  font-size: 2rem;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  font-family: 'veradana';
+  width: 100%;
+  color: black !important;
+  text-align: center;
+}
+.section-6 .para{
+  width: 100%;
+  font-family: 'veradana';
+  color: white;
+  margin-bottom: 7%;
+  text-align: center;
+}
+  .form-div{
+  font-size: 0.9rem;
+	margin-left: 15rem;
+	width: 50rem;
+	height: 4rem;
+}
+.form-input{
+  text-align: center;
+    margin-top: 2rem;
+	margin-left: 50rem;
+	background-color:#657008;
+  color: white;
+	font-size: 1.6rem;
+	width: 15rem;
+	height: 3rem;
+}
+
+.section-6 .btn{
+  margin-bottom: 15%;
+  width:20%;
+  margin-left: 40%;
+  padding: 2% 5%;
+  background-color: orange;
+}
+
+/*footer*/
+.footer{
+  padding-top:0;
+  background: #152F4F;
+  color:white;
+  }
+
+  .links
+    
+   
+   	ul {
+      list-style-type: none;
+    }
+   	 li a{
+      font-size: 1.6rem;
+      color: white;
+      transition: color .2s;
+    }
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+
+  .about-company h2{
+    padding-top: 0;
+   font-size: 1.9rem;
+  }
+  .social{
+    font-size: 1.9rem;
+    padding-left: 50px;
+    color:#657008;
+  }
+  .links li a{
+    font-size: 1.9rem;
+  }
+  .social h3{
+    font-size: 1.9rem;
+  }
+ .rounded-social-buttons a{
+  color: #657008;
+ }
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{
+
+    border-top:1px solid rgba(255,255,255,.1);
+  } 
+}
+

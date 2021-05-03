@@ -1,0 +1,653 @@
+
+  body{
+  font-family: "veradana";
+  margin :0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+.content-banner{
+  color: #ffffff;
+  background-image: url("../images/shop.jpg");
+  min-height: 200px;
+  height: 100%;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 3rem;
+  text-align: center;
+}
+.content-banner:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94,87,80,0.41);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.content-banner .title {
+  font-family: "Raleway";
+  font-size: 1.9rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+  margin: 30px 0px 12px;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+  .subtitle{
+  font-family: "veradana" bold;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+
+  
+}
+
+/*section2*/
+
+
+main{
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+
+}
+
+.container-fluid{
+  margin-left: 8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.rowa{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image9{
+  
+  position: relative;
+  flex: 1;
+  max-width: auto;
+  height: 300px;
+  margin: 3px;
+  overflow: hidden;
+}
+
+.image9 img{
+  
+  position: relative;
+  
+  width: 100%;
+  
+}
+
+.image9:hover img{
+
+  opacity: 1;
+}
+
+.image9 .details{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.image9 .details h2{
+  color: yellow;
+  padding-left: 14rem;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 8rem;
+  
+  transition-property: transform;
+}
+.image9 .details .butn{
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 14rem;
+  height: 10%;
+  padding: .5rem 2rem;
+  color: orange;
+  font-size: 2rem;
+  
+  background-color: #fff;
+  border-radius: 1px solid #ccc;
+
+
+}
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+  .image{
+    flex: 100%;
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 400px){
+  .image .details p{
+    font-size: 16px;
+  }
+
+  .more .read-more, .more .icon-links a i{
+    font-size: 18px;
+  }
+}
+      
+
+/*section3*/
+.container-image{
+	position: absolute;
+}
+ .container-image .header h2{
+  padding-top: 4rem;
+  font-family: "veradana";
+  font-size: 2rem;
+  color: #ffc000;
+  padding-left: 40%;
+  
+
+}
+.container-image .header h2:after{
+   content: '';
+  background: #657008;
+  display: block;
+  height: 3px;
+  width: 140px;
+  margin: 10px 10px 10px 30px;
+  }
+  
+.row {
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 50px;
+}
+.row .item {
+  min-height: 430px;
+ text-align: center;
+  overflow: hidden;
+}
+.carousel .item .img-box {
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.carousel .item img { 
+ max-width: 100%;
+max-height: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+}
+
+.thumb-content .btn {
+    color: #333;
+    border-radius: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 6px;
+    margin-top: 5px;
+    line-height: 16px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 55px;
+    
+
+}
+.thumb-content .btn:hover, .thumb-content .btn:focus {
+  color: #fff;
+  background: #000;
+  border-color: green;
+  box-shadow: none;
+}.thumb-content .btn i {
+  font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.carousel .thumb-wrapper {
+  text-align: center;
+}
+.thumb-wrapper h3{
+  padding-left: 3rem;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-family: "Raleway";
+  color: #657008;
+  width: 100%;
+}
+
+ .thumb-content {
+  padding: 16px;
+  }
+
+ .thumb-content .item-price {
+  margin-left: 1rem;
+  font-size: 1.6rem;
+  padding: 2px 0;
+  color: black;
+}
+
+.thumb-content .item-price span {
+  font-family: "poppins" bold;
+ margin-left: 11rem;
+  color: black;
+  font-size: 1.4rem;
+}
+/*section4*/
+ul.pagination {
+    display: inline-block;
+    padding-top:2rem;
+  
+    padding-left: 60rem;
+}
+
+ul.pagination li {
+  display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 2px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {
+  background-color: #ddd;
+}
+/*section5*/
+.content-last{
+  color: #ffffff;
+  background-image: url("../images/shop.jpg");
+  height:25%;
+  position: relative;
+  background-position: center center;
+  padding-bottom: 0;
+  /*background-size: cover;*/
+  padding-top: 1rem;
+  margin: 0;
+}
+.content-last:before{
+  padding-bottom: 0;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94,87,80,0.41);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.content-last .title-last {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+  margin: 0px 0px 0px 1px;
+  padding-top:0px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+ .banner-last p{
+  
+  font-family: "veradana" bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top:0.5rem;
+}
+/*section6*/
+
+.rowarea{
+  padding-bottom: 1rem;   
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+.rowarea h1{
+  padding-top: 1rem;
+  font-size: 3rem;
+  padding-left: 4rem;
+
+}
+.rowarea p{
+  padding-top: 5rem;
+  width: 60%;
+  font-family:"museo_sans_300";
+  font-size: 1.7rem;
+}
+.rowarea{
+
+  color: #ffffff;
+  background-image: url("../images/last.jpg");
+  min-height:100px;
+  height:auto;
+  padding-top: 2rem;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+.meeting{
+  margin-bottom: 6%;
+ width: 100%;
+ margin-top: 5rem;
+ 
+}
+
+.sec2-heading{
+  padding:0;
+    font-family: "veradana";
+  
+ 
+  margin-right: 40px;
+}
+
+.sec2-heading h1{
+  padding-left: 2.5rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+.dark-color{
+  padding-top: 2rem;
+  color:white;
+  font-family: 'veradana';
+  width:60%;
+  font-size:1.7rem;
+  
+}
+.button{
+  align-items: center;
+  background-color: orange;
+  color: white;
+  font-size: 2rem;
+  border-radius:2px solid;
+  padding-top: 1rem;
+  width: 40%;
+  height: 20%;
+
+}
+/*section7*/
+.contentdiv{
+  color: #ffffff;
+  background-image: url("../images/shop.jpg");
+  height:25%;
+  position: relative;
+  background-position: center center;
+  padding-bottom: 12rem;
+  /*background-size: cover;*/
+}
+.contentdiv:before{
+  padding-bottom: 0;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94,87,80,0.41);
+  
+  left: 0;
+  z-index: 1;
+}
+.contentdiv .title-last {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+  margin: 0px 0px 0px 1px;
+  padding-top:0px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+ .banner-last p{
+  
+  font-family: "veradana" bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top:0.5rem;
+}
+.row{
+  padding-left: 2rem;
+}
+.container-fluid {
+ border: 1px; /*solid #ccc;*/
+  background-color: #eee;
+  border-radius: 2px;
+  width: 95%;
+  
+  padding: 12px;
+  margin: 5px 0;
+}
+#profileImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #512DA8;
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  line-height: 150px;
+  margin: 20px 0;
+}
+.container-fluid::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.container-fluid img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 10%;
+   background: blue;
+   color: white;
+}
+
+.container-fluid span {
+  font-size: 20px;
+
+
+}
+
+@media (max-width: 500px) {
+  .container-fluid {
+      text-align: center;
+  }
+  .container-fluid img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+/*section5*/
+.wrapper {
+  
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+/*.slider {
+  width: 1200px;
+  height: 100px;
+  position: relative;
+  background: white;
+  box-shadow: 0 10px 20px 10px rgba(0,0,0,1.7);
+  overflow:hidden;
+  margin-left: 0;
+  padding-left: 1px;
+
+}*/
+ .head h1{
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-family: "veradana" bold;
+  text-align: center;
+  color: blue;
+}
+.slider1 {
+  height: 10px;
+  display: flex;
+  align-items: center;
+}
+.slide2 img {
+
+  height: 60px;
+  padding: 0px 10px 0 10px;
+  
+
+}
+
+/*section6*/
+.section-6 .containerarrary{
+  background-image: url('../images/land.jpg');
+  background-size: cover;
+  height: 40rem;
+
+}
+.section-6 .heading-1{
+  font-size: 2rem;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  font-family: 'veradana';
+  width: 100%;
+  color: black !important;
+  text-align: center;
+}
+.section-6 .para{
+  width: 100%;
+  font-family: 'veradana';
+  color: white;
+  margin-bottom: 7%;
+  text-align: center;
+}
+  .form-div{
+  font-size: 0.9rem;
+  margin-left: 15rem;
+  width: 50rem;
+  height: 4rem;
+}
+.form-input{
+  text-align: center;
+    margin-top: 2rem;
+  margin-left: 50rem;
+  background-color:#657008;
+  color: white;
+  font-size: 1.6rem;
+  width: 15rem;
+  height: 3rem;
+}
+
+.section-6 .btn{
+  margin-bottom: 15%;
+  width:20%;
+  margin-left: 40%;
+  padding: 2% 5%;
+  background-color: orange;
+}
+
+/*footer*/
+.footer{
+  padding-top:0;
+  background: #152F4F;
+  color:white;
+  }
+  .links
+    ul {
+      list-style-type: none;
+    }
+    li a{
+      font-size: 1.6rem;
+      color: white;
+      transition: color .2s;
+    }
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+
+  .about-company h3{
+    padding-top: 1rem;
+   font-size: 1.9rem;
+  }
+  .social{
+    font-size: 1.9rem;
+    padding-left: 50px;
+    color:#657008;
+  }
+  .links li a{
+    font-size: 1.9rem;
+  }
+  .social h3{
+    font-size: 1.9rem;
+  }
+ .rounded-social-buttons a{
+  color: #657008;
+ }
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{
+
+    border-top:1px solid rgba(255,255,255,.1);
+  } 
+}
