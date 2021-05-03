@@ -451,10 +451,11 @@ ul.pagination li a:hover:not(.active) {
   text-align: center;
   margin-top:0.5rem;
 }
-.row{
+/*section8*/
+.row11{
   padding-left: 2rem;
 }
-.container-fluid {
+.row11 .container-fluid {
  border: 1px; /*solid #ccc;*/
   background-color: #eee;
   border-radius: 2px;
